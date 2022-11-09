@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: kerberos-demo
+  description: KerberosDemo
+  annotations:
+    backstage.io/source-location: url:https://github.com/macsux/kerberos-buildpack
+spec:
+  owner: dotnet-tsl
+  domain: dotnet-tsl
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kerberos-demo
+  description: Kerberos-demo
+  tags:
+    - microservice
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=kerberos-demo'
+    backstage.io/source-location: url:https://github.com/macsux/kerberos-buildpack
+spec:
+  type: service
+  providesApis: []
+  lifecycle: alpha
+  owner: dotnet-tsl
+  system: kerberos-demo

@@ -1,0 +1,40 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dotnet-tsl
+  description: .Net TSL
+spec:
+  type: team
+  profile:
+    displayName: .Net TSL
+    email: dotnettsl@vmware.com
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: dpfeffer
+spec:
+  profile:
+    displayName: Dodd Pfeffer
+    email: dpfeffer@vmware.com
+  memberOf: [dotnet-tsl]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: thess
+spec:
+  profile:
+    displayName: Tim Hess
+    email: thess@vmware.com
+  memberOf: [dotnet-tsl]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: astakhov
+spec:
+  profile:
+    displayName: Andrew Stakhov
+    email: astakhov@vmware.com
+  memberOf: [dotnet-tsl]

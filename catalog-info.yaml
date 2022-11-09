@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: tap-gui-catalog-info
+  description: A sample catalog for Backstage
+spec:
+  targets:
+    - ./users-and-groups.yaml
+    - ./domains.yaml
+    - ./systems/canary.yaml
+    - ./systems/dotnet-todos.yaml
+    - ./systems/kerberos-demo.yaml
