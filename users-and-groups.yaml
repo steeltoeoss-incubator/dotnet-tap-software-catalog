@@ -8,6 +8,7 @@ spec:
   profile:
     displayName: .Net TSL
     email: dotnettsl@vmware.com
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
