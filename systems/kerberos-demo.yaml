@@ -20,7 +20,7 @@ metadata:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=kerberos-demo'
     backstage.io/source-location: url:https://github.com/macsux/kerberos-buildpack
   links:
-    - url: https://kerberos-demo.dpfeffer.dotnet-tap.tanzu-azure-lab.winterfell.fun/diag
+    - url: https://kerberos-demo.dpfeffer.tap-full.tanzu-google-lab.steeltoe.io/diag
       title: Diag Page
       icon: docs
 spec:

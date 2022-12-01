@@ -82,9 +82,9 @@ spec:
       description: A simple employee todo list
       version: v1
     servers: 
-      - url: https://dotnet-todos.tap-run-test.tanzu-azure-lab.winterfell.fun/api
+      - url: https://dotnet-todos.tap-full.tanzu-google-lab.steeltoe.io/api
         description: Test Environment
-      - url: https://dotnet-todos.tap-run-prod.tanzu-azure-lab.winterfell.fun/api
+      - url: https://dotnet-todos.tap-full.tanzu-google-lab.steeltoe.io/api
         description: Prod Environment
     paths:
       "/api/Employees":
